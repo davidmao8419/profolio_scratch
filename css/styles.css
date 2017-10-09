@@ -19,7 +19,7 @@
 #lead-down2{position:absolute;left:0;right:0;width:100%;text-align:center;z-index:10;bottom:15px;color:#fff}
 #lead-down2 span{cursor:pointer;display:block;margin:0 auto;width:35px;height:35px;border-radius:50%;border:3px solid #a0cfee;text-align:center}
 #lead-down2 i{animation:pulsate 1.5s ease;animation-iteration-count:infinite;padding-top:5px}
-header2{position:absolute;top:0;left:0;text-align:center;z-index:10;animation-name:dropHeader;animation-iteration-count:1;animation-timing-function:ease;animation-duration:0.75s}
+header2{position:absolute;top:0;left:0;right:0;text-align:center;z-index:10;animation-name:dropHeader;animation-iteration-count:1;animation-timing-function:ease;animation-duration:0.75s}
 header2 ul{display:inline-block;text-align:center;padding:10px;margin:0;}
 header2 li{display:inline-block}header a{display:block;color:#3498db;padding:10px}
 header2 a:hover{color:#217dbb;text-decoration:none;background:#eee;border-radius:4px}
