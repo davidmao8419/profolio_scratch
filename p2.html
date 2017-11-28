@@ -75,7 +75,7 @@
             <h1>Ryan Fitzgerald</h1>
             -->
             <h1>Team Formation</h1>
-            <h2>Web Application <br>
+            <h2 style="color: #000080">Web Application <br>
             Angular 2, Firebase, Amazon Turk, Natural Language Processing</h2>
             
         </div>
@@ -110,21 +110,26 @@
                 <div class="md-10 lg-8 md-center column">
                 <p>
                  This project investigate factors related to team formation, and in particular, whether we can leverage individuals' proposed solutions to a problem as a way to form effective teams.
- 
                 </p>
-                
-                Using Angular, I built a web system from scratch for participants to conduct experiments. We then randomly assigned the participants into 
-                groups. Each group was assigned a designated problem and team members communicated via online messaging in the system to determine a solution. To determine if higher homogeneity among teammates leads to a better overall conclusion, meaning a better team, all chat history and individual information were stored in JSON form in Firebase, a real-time database, and analyzed using Python to glean a deeper insight into the unstructured bodies of text and visualize the connection of each individual teammate with the team conclusion.
+                <p>
+                Using Angular 2, I built a web system from scratch for participants to conduct experiments on Amazon Turk. I used Firebase developed by Google as the database. 
+                </p>
 
+                <p>
+                <b>The work flow of the experiment system:</b>
+                <br>
+                Each individual first entering the system would be asked for several quesitons about themselves, such as personality. These information 
+                would be stored to assist future research.
+                <br>
+                We then randomly assigned participants into groups. 
+                Each group was assigned a designated problem and team members communicated via online messaging in the system to determine a solution of the specific problem. 
+                <br>
+                To determine if higher homogeneity among teammates leads to a better overall conclusion, meaning a better team, all chat history and individual information were stored in JSON form in Firebase and analyzed using Topic Model with Python to glean a deeper insight into the unstructured bodies of text and visualize the connection of each individual teammate with the team conclusion.
+                </p>
+                
                 
                 <p>
-                In addition to solving the above problem, I also wanted to experiment with a new stack, which in this case was Ruby on Rails with PostgreSQL. In addition, I also used Foundation and JavaScript on the frontend. Moreover, this project was one of the first times I experimented with Docker and creating proper development flows (i.e. dev to staging to production). 
-                </p>
-                <p>
-                Needless to say, this side project was a great learning experience and it turned out to be fairly useful for other students as it received a couple hundred course reviews from students at the University of Ottawa.
-                </p>
-                <p>
-                To see the site live, <a href="https://www.coursefacts.com/" target="_blank">click here</a>.
+                To see the site live, <a href="https://interactive-e6fad.firebaseapp.com/login" target="_blank">click here</a>.
                 </p>
       
                 </div>
